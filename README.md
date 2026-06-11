@@ -46,6 +46,10 @@ IT_Admin
 
 A new user account is created, placed in the correct department OU, and assigned role-based access via security groups.
 
+## 01 - Active Directory Overview
+
+![AD Overview](Screenshots/01-Active-Directory-Overview.png)
+
 2. Access Control (RBAC)
 
 Users are granted access based on group membership rather than individual permissions, enforcing least-privilege principles.
