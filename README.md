@@ -63,50 +63,49 @@ User accounts are disabled, removed from security groups, and moved to a restric
 
 Initial review of the domain structure in mydomain.local prior to implementing IAM workflows.
 ## 01 - Active Directory Overview
-![AD Overview](Screenshots/01-Active-Directory-Overview.png)
+![Active Directory Overview](Screenshots/01-Active-Directory-Overview.png) 
 
 02 – User Identity Audit
 
 Review of existing user accounts to assess identity state before structuring access control.
 ## 02 - User Identity Audit
-![User Audit](Screenshots/02-User-Audit.png)
+![User Audit](Screenshots/02-User-Audit-Overview.png)
 
 03 – Organizational Units (OU Structure)
 
 Creation of departmental OUs (HR, Finance, IT, Disabled Users) to organize identity management.
 ## 03 - Organizational Units
-![OUs](Screenshots/03-OUs.png)
+![OUs](Screenshots/03-Organizational-Units.png)
 
 04 – Security Groups (RBAC Implementation)
 
 Creation of role-based security groups to manage access through group membership.
 ## 04 - Security Groups
-![Groups](Screenshots/04-Groups.png)
-
+![Groups](Screenshots/04-Security-Groups.png)
 
 05 – User Group Assignment
 
 Assignment of users to security groups to enforce RBAC and least-privilege access control.
-## 05 - RBAC Assignment
-![RBAC](Screenshots/05-RBAC.png)
+## 05 - User Group Assignment
+![RBAC](Screenshots/05-User-Group-Assignment.png)
 
 06 – New Hire Onboarding
 
 Provisioning of a new user account (Sarah Wilson), assignment to HR OU, and HR_Read access.
 ## 06 - New Hire Onboarding
-![Onboarding](Screenshots/06-Onboarding.png)
+![Onboarding](Screenshots/06-New-Hire-Onboarding.png)
 
 07 – Department Transfer
 
 User role change from HR to Finance with updated group membership and removal of legacy access.
 ## 07 - Department Transfer
-![Transfer](Screenshots/07-Transfer.png)
+![Transfer](Screenshots/07-Department-Transfer.png)
 
 08 – User Termination
 
 Account deactivation, removal of group memberships, and relocation to Disabled Users OU.
 ## 08 - User Termination
-![Termination](Screenshots/08-Termination.png)
+![Termination](Screenshots/08-User-Termination.png)
 
 🧾 Key IAM Workflows Simulated
 ✔ Joiner (Onboarding)
