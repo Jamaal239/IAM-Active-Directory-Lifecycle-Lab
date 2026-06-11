@@ -11,12 +11,14 @@ Implement Role-Based Access Control (RBAC)
 Demonstrate identity lifecycle management (Joiner–Mover–Leaver model)
 Apply least-privilege access principles
 Practice enterprise-style user provisioning and deprovisioning
+
 🏗️ Environment
 Domain Controller: Windows Server with Active Directory Domain Services (AD DS)
 Domain Name: mydomain.local
 Client Machine: Windows 10/11 domain-joined workstation
 Virtualization Platform: VirtualBox
 Core Technology: Active Directory (AD DS)
+
 🔐 IAM Concepts Demonstrated
 Identity Lifecycle Management
 User Provisioning (Joiner process)
@@ -26,6 +28,7 @@ Security Group Management
 Least Privilege Access Control
 Department Transfers (Mover process)
 Account Deprovisioning (Leaver process)
+
 🧩 Active Directory Structure
 HR OU
 Finance OU
@@ -37,6 +40,7 @@ Security Groups:
 HR_Read
 Finance_Read
 IT_Admin
+
 🔄 IAM Lifecycle Workflow
 1. Provisioning (Joiner)
 
@@ -100,6 +104,7 @@ Access removal/addition
 Account disablement
 Access revocation
 Identity isolation
+
 💼 Skills Demonstrated
 Active Directory Administration
 Identity & Access Management (IAM)
@@ -108,6 +113,7 @@ Enterprise User Lifecycle Management
 Role-Based Access Control (RBAC)
 Least Privilege Security Model
 Windows Server Administration
+
 📌 Outcome
 
 This lab demonstrates practical IAM knowledge through simulation of real enterprise identity workflows. It reflects operational tasks commonly performed by IAM Analysts, Identity Administrators, and IT Security teams.
