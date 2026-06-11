@@ -89,7 +89,6 @@ This lab maps directly to enterprise IAM operations:
 ---
 
 ## ## 01 – Active Directory Overview
-
 Initial review of the domain structure in mydomain.local prior to implementing IAM workflows.
 
 ![Active Directory Overview](Screenshots/01-Active-Directory-Overview.png)
@@ -97,7 +96,6 @@ Initial review of the domain structure in mydomain.local prior to implementing I
 ---
 
 ## ## 02 – User Identity Audit
-
 Review of existing user accounts to assess identity state before structuring access control.
 
 ![User Audit](Screenshots/02-User-Audit-Overview.png)
@@ -105,7 +103,6 @@ Review of existing user accounts to assess identity state before structuring acc
 ---
 
 ## ## 03 – Organizational Units (OU Structure)
-
 Creation of departmental OUs (HR, Finance, IT, Disabled Users) to organize identity management.
 
 ![OUs](Screenshots/03-Organizational-Units.png)
@@ -113,7 +110,6 @@ Creation of departmental OUs (HR, Finance, IT, Disabled Users) to organize ident
 ---
 
 ## ## 04 – Security Groups (RBAC Implementation)
-
 Creation of role-based security groups to manage access through group membership.
 
 ![Groups](Screenshots/04-Security-Groups.png)
@@ -121,7 +117,6 @@ Creation of role-based security groups to manage access through group membership
 ---
 
 ## ## 05 – User Group Assignment
-
 Assignment of users to security groups to enforce RBAC and least-privilege access control.
 
 ![RBAC](Screenshots/05-User-Group-Assignment.png)
@@ -129,7 +124,6 @@ Assignment of users to security groups to enforce RBAC and least-privilege acces
 ---
 
 ## ## 06 – New Hire Onboarding
-
 Provisioning of a new user account (Sarah Wilson), assignment to HR OU, and HR_Read access.
 
 ![Onboarding](Screenshots/06-New-Hire-Onboarding.png)
@@ -137,7 +131,6 @@ Provisioning of a new user account (Sarah Wilson), assignment to HR OU, and HR_R
 ---
 
 ## ## 07 – Department Transfer
-
 User role change from HR to Finance with updated group membership and removal of legacy access.
 
 ![Transfer](Screenshots/07-Department-Transfer.png)
@@ -145,44 +138,6 @@ User role change from HR to Finance with updated group membership and removal of
 ---
 
 ## ## 08 – User Termination
-
 Account deactivation, removal of group memberships, and relocation to Disabled Users OU.
 
 ![Termination](Screenshots/08-User-Termination.png)
-
----
-
-# 🧾 Key IAM Workflows Simulated
-
-✔ Joiner (Onboarding)  
-- User creation  
-- Department assignment  
-- Access provisioning  
-
-✔ Mover (Role Change)  
-- OU migration  
-- Group reassignment  
-- Access removal/addition  
-
-✔ Leaver (Offboarding)  
-- Account disablement  
-- Access revocation  
-- Identity isolation  
-
----
-
-# 💼 Skills Demonstrated
-
-- Active Directory Administration  
-- Identity & Access Management (IAM)  
-- Security Group Management  
-- Enterprise User Lifecycle Management  
-- Role-Based Access Control (RBAC)  
-- Least Privilege Security Model  
-- Windows Server Administration  
-
----
-
-# 📌 Outcome
-
-This lab demonstrates practical IAM knowledge through simulation of real enterprise identity workflows. It reflects operational tasks commonly performed by IAM Analysts, Identity Administrators, and IT Security teams.
