@@ -1,7 +1,3 @@
-Good — this is the version that starts looking like a real IAM case study, not a lab dump.
-
-Below is a clean, recruiter-ready README you can paste directly into GitHub.
-
 📘 Identity & Access Management (IAM) Active Directory Lifecycle Lab
 🧠 Overview
 
