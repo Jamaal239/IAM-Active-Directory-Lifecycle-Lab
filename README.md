@@ -141,3 +141,7 @@ User role change from HR to Finance with updated group membership and removal of
 Account deactivation, removal of group memberships, and relocation to Disabled Users OU.
 
 ![Termination](Screenshots/08-User-Termination.png)
+
+## 📌 Outcome
+
+This lab demonstrates practical, hands-on Identity and Access Management (IAM) skills through a full Active Directory identity lifecycle simulation aligned with enterprise security practices.
