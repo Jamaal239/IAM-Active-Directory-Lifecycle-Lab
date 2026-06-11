@@ -1,8 +1,8 @@
-# 📘 Identity & Access Management (IAM) Active Directory Lifecycle Lab
+#  Identity & Access Management (IAM) Active Directory Lifecycle Lab
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 This project simulates enterprise Identity and Access Management (IAM) operations using a Windows Server Active Directory environment. It demonstrates end-to-end identity lifecycle management, including user provisioning, role-based access control (RBAC), department transfers, and account deprovisioning.
 
@@ -10,7 +10,7 @@ The goal of this lab is to replicate real-world IAM workflows used in enterprise
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Simulate real-world IAM workflows in Active Directory  
 - Implement Role-Based Access Control (RBAC)  
@@ -20,7 +20,7 @@ The goal of this lab is to replicate real-world IAM workflows used in enterprise
 
 ---
 
-## 🏗️ Environment
+##  Environment
 
 - **Domain Controller:** Windows Server with Active Directory Domain Services (AD DS)  
 - **Domain Name:** mydomain.local  
@@ -30,7 +30,7 @@ The goal of this lab is to replicate real-world IAM workflows used in enterprise
 
 ---
 
-## 🔐 IAM Concepts Demonstrated
+## IAM Concepts Demonstrated
 
 - Identity Lifecycle Management  
 - User Provisioning (Joiner process)  
@@ -43,7 +43,7 @@ The goal of this lab is to replicate real-world IAM workflows used in enterprise
 
 ---
 
-## 🧩 Active Directory Structure
+##  Active Directory Structure
 
 - HR OU  
 - Finance OU  
@@ -57,7 +57,7 @@ Security Groups:
 
 ---
 
-## 🔄 IAM Lifecycle Workflow
+## IAM Lifecycle Workflow
 
 ### 1. Provisioning (Joiner)
 A new user account is created, placed in the correct department OU, and assigned role-based access via security groups.
@@ -73,7 +73,7 @@ User accounts are disabled, removed from security groups, and moved to a restric
 
 ---
 
-## 🔐 Real-World IAM Mapping
+##  Real-World IAM Mapping
 
 This lab maps directly to enterprise IAM operations:
 
@@ -84,7 +84,7 @@ This lab maps directly to enterprise IAM operations:
 
 ---
 
-# 📸 Lab Evidence (Screenshots)
+# Lab Evidence
 
 ---
 
